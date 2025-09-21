@@ -1,11 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, createContext } from "react"
+import reactLogo from "./assets/react.svg"
+import viteLogo from "/vite.svg"
+import "./App.css"
+import HandleTimeTakingWorkUsingUseMemo from "./components/HandleTimeTakingWorkUsingUseMemo"
 
 function App() {
-    return (
-  <h1>Hello React</h1>
+  return (
+    <div className="bring-to-middle">
+      <HandleTimeTakingWorkUsingUseMemo></HandleTimeTakingWorkUsingUseMemo>
+    </div>
   )
 }
 
